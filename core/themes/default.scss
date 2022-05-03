@@ -1,0 +1,56 @@
+@import "../core";
+
+:root {
+  --global-gutter: 2.5rem;
+  --global-margin: 2rem;
+  --global-max-width: 1200px;
+
+  --color-alpha: #0540f2;
+  --color-beta: #232323;
+  --color-gamma: #fff;
+  --color-delta: #000;
+  //--color-epsilon: #fff;
+  //--color-zeta: #fff;
+  //--color-eta: #fff;
+  //--color-theta: #fff;
+  //--color-iota: #fff;
+  //--color-kappa: #fff;
+  //--color-lambda: #fff;
+  //--color-mu: #fff;
+  //--color-nu: #fff;
+  //--color-xi: #fff;
+  //--color-omikron: #fff;
+  //--color-pi: #fff;
+  //--color-rho: #fff;
+  //--color-sigma: #fff;
+  //--color-tau: #fff;
+  //--color-upsilon: #fff;
+  //--color-phi: #fff;
+  //--color-chi: #fff;
+  //--color-psi: #fff;
+  //--color-omega: #fff;
+
+  --font-serif: serif;
+  --font-sans-serif: sans-serif;
+
+  --body-background: var(--color-gamma);
+  --body-font-color: var(--color-beta);
+  --body-font-family: var(--font-sans-serif);
+  --body-font-size: 1.6rem;
+  --body-font-weight: 300;
+  --body-line-height: 1.5;
+
+  --anchor-font-color: var(--body-font-color);
+  --anchor-font-color-hover: var(--color-alpha);
+  --anchor-text-decoration: underline;
+  --anchor-text-decoration-hover: none;
+
+  --heading-margin: var(--paragraph-margin);
+  --heading-font-color: var(--color-delta);
+  --heading-font-family: var(--body-font-family);
+  --heading-font-weight: bold;
+
+  --blockquote-margin: var(--paragraph-margin);
+  --list-margin: var(--paragraph-margin);
+  --paragraph-margin: 0 0 var(--global-margin) 0;
+}
