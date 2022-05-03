@@ -1,4 +1,6 @@
 {
   "extends": "stylelint-config-sass-guidelines",
-  "defaultSeverity": "warning"
+  "rules": {
+    "defaultSeverity": "warning"
+  }
 }
