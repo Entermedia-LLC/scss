@@ -1,0 +1,24 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "This is the official SCSS base project styles for Entermedia. The purpose behind it is to improve the quality of the experiences we build as well as to standardize in order to facilitate more effective collaboration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Entermedia-LLC/scss.git"
+  },
+  "author": "Entermedia LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Entermedia-LLC/scss/issues"
+  },
+  "homepage": "https://github.com/Entermedia-LLC/scss#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^16.2.4",
+    "commitlint": "^16.2.4",
+    "husky": "^7.0.4"
+  }
+}
