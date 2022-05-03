@@ -28,9 +28,9 @@
     "stylelint-config-sass-guidelines": "^9.0.1"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
+    "**/*": "prettier --write",
     "*.{css,scss}": [
-      "stylelint --fix"
+      "stylelint"
     ]
   }
 }
