@@ -4,7 +4,7 @@
   "description": "This is the official SCSS base project styles for Entermedia. The purpose behind it is to improve the quality of the experiences we build as well as to standardize in order to facilitate more effective collaboration.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "stylelint '**/*.scss'"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,17 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^16.2.4",
     "commitlint": "^16.2.4",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "postcss": "^8.4.13",
+    "prettier": "2.6.2",
+    "stylelint": "^14.8.1",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.{css,scss}": [
+      "stylelint"
+    ]
   }
 }
