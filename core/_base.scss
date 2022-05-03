@@ -1,4 +1,4 @@
-@import "core";
+@import 'core';
 
 html {
   box-sizing: border-box;
@@ -24,7 +24,7 @@ img,
 svg {
   display: inline-block;
   height: auto;
-  -ms-interpolation-mode: bicubic;
+  -ms-interpolation-mode: bicubic; /* stylelint-disable-line property-no-vendor-prefix */
   max-width: 100%;
 }
 
