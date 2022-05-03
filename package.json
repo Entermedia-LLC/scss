@@ -4,7 +4,8 @@
   "description": "This is the official SCSS base project styles for Entermedia. The purpose behind it is to improve the quality of the experiences we build as well as to standardize in order to facilitate more effective collaboration.",
   "main": "index.js",
   "scripts": {
-    "lint": "stylelint '**/*.scss'"
+    "lint": "stylelint '**/*.scss'",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
