@@ -16,6 +16,7 @@
 ├── _mixins.scss          # Sass mixins
 ├── _variables.scss       # Sass variables
 ├── base.scss             # Base HTML stylesheet (global stylesheet)
+```
 
 ## Contributions
 
@@ -24,7 +25,6 @@ We don't know everything! We welcome pull requests and spirited debates :)
 ## Running Locally
 
 ```
-
 npm install
 npm run prettier
 num run stylelint
@@ -34,4 +34,7 @@ num run stylelint
 ## Support Level
 
 **Active:** Entermedia is actively working on this, and we expect to continue work for the foreseeable future including keeping tested up to the most recent Sass & browser versions. Bug reports, feature requests, questions, and pull requests are welcome.
+
+```
+
 ```
