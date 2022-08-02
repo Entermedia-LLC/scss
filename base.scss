@@ -52,6 +52,12 @@ blockquote {
   margin: var(--blockquote-margin);
 }
 
+button,
+input[type='submit'],
+input[type='button'] {
+  border: var(--button-border);
+}
+
 h1,
 h2,
 h3,

@@ -50,6 +50,15 @@
   --heading-font-family: var(--body-font-family);
   --heading-font-weight: bold;
 
+  --button-background: var(--color-alpha);
+  --button-border: 0;
+  --button-border-radius: 0;
+  --button-color: var(--color-gamma);
+  --button-font-family: inherit;
+  --button-font-size: 1.6rem;
+  --button-font-weight: normal;
+  --button-padding: 0.85em 1em;
+
   --blockquote-margin: var(--paragraph-margin);
   --list-margin: var(--paragraph-margin);
   --paragraph-margin: 0 0 var(--global-margin) 0;
