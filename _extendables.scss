@@ -1,5 +1,5 @@
 %button {
-  -webkit-appearance: none;
+  -webkit-appearance: none; /* stylelint-disable-line property-no-vendor-prefix */
   background: var(--button-background);
   border: var(--button-border);
   border-radius: var(--button-border-radius);

@@ -52,11 +52,13 @@ blockquote {
   margin: var(--blockquote-margin);
 }
 
+/* stylelint-disable selector-no-qualifying-type */
 button,
 input[type='submit'],
 input[type='button'] {
   @extend %button;
 }
+/* stylelint-enable selector-no-qualifying-type */
 
 h1,
 h2,
