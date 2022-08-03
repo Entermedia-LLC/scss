@@ -27,8 +27,7 @@ We don't know everything! We welcome pull requests and spirited debates :)
 ```
 npm install
 npm run prettier
-num run stylelint
-
+npm run lint
 ```
 
 ## Support Level
