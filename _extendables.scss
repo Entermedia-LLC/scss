@@ -15,4 +15,12 @@
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
+
+  &:hover {
+    background: var(--button-background-hover);
+    border: var(--button-border-hover);
+    border-radius: var(--button-border-radius-hover);
+    color: var(--button-color-hover);
+    font-weight: var(--button-font-weight-hover);
+  }
 }

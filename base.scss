@@ -55,7 +55,7 @@ blockquote {
 button,
 input[type='submit'],
 input[type='button'] {
-  border: var(--button-border);
+  @extend %button;
 }
 
 h1,

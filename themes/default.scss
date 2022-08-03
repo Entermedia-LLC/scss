@@ -1,10 +1,12 @@
 @import '../core';
 
 :root {
+  // Global
   --global-gutter: 2.5rem;
   --global-margin: 2rem;
   --global-max-width: 1200px;
 
+  // Colors
   --color-alpha: #0540f2;
   --color-beta: #232323;
   --color-gamma: #fff;
@@ -30,9 +32,11 @@
   //--color-psi: #fff;
   //--color-omega: #fff;
 
+  // Fonts
   --font-serif: serif;
   --font-sans-serif: sans-serif;
 
+  // Body styles
   --body-background: var(--color-gamma);
   --body-font-color: var(--color-beta);
   --body-font-family: var(--font-sans-serif);
@@ -40,25 +44,34 @@
   --body-font-weight: 300;
   --body-line-height: 1.5;
 
+  // Link styles
   --anchor-font-color: var(--body-font-color);
   --anchor-font-color-hover: var(--color-alpha);
   --anchor-text-decoration: underline;
   --anchor-text-decoration-hover: none;
 
+  // Heading styles
   --heading-margin: var(--paragraph-margin);
   --heading-font-color: var(--color-delta);
   --heading-font-family: var(--body-font-family);
   --heading-font-weight: bold;
 
+  // Button styles
   --button-background: var(--color-alpha);
-  --button-border: 0;
+  --button-border: 1px solid transparent;
   --button-border-radius: 0;
   --button-color: var(--color-gamma);
   --button-font-family: inherit;
   --button-font-size: 1.6rem;
   --button-font-weight: normal;
-  --button-padding: 0.85em 1em;
+  --button-padding: 0.85em 1.2em;
+  --button-background-hover: var(--color-gamma);
+  --button-border-hover: 1px solid var(--color-alpha);
+  --button-color-hover: var(--color-alpha);
+  --button-font-weight-hover: var(--button-font-weight);
+  --button-border-radius-hover: var(--button-border-radius);
 
+  // Typography styles
   --blockquote-margin: var(--paragraph-margin);
   --list-margin: var(--paragraph-margin);
   --paragraph-margin: 0 0 var(--global-margin) 0;
