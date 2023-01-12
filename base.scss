@@ -1,75 +1,7 @@
+/**
+ * Base CSS application styles
+ */
+
 @import 'core';
 
 @import 'normalize.css';
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  background: var(--body-background);
-  color: var(--body-font-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size);
-  font-weight: var(--body-font-weight);
-  line-height: var(--body-line-height);
-}
-
-img,
-svg {
-  display: inline-block;
-  height: auto;
-  -ms-interpolation-mode: bicubic; /* stylelint-disable-line property-no-vendor-prefix */
-  max-width: 100%;
-}
-
-// Typography
-a {
-  color: var(--anchor-font-color);
-  text-decoration: var(--anchor-text-decoration);
-
-  &:hover {
-    color: var(--anchor-font-color-hover);
-    text-decoration: var(--anchor-text-decoration-hover);
-  }
-}
-
-p {
-  margin: var(--paragraph-margin);
-}
-
-ul,
-ol {
-  margin: var(--list-margin);
-}
-
-blockquote {
-  margin: var(--blockquote-margin);
-}
-
-/* stylelint-disable selector-no-qualifying-type */
-button,
-input[type='submit'],
-input[type='button'] {
-  @extend %button;
-}
-/* stylelint-enable selector-no-qualifying-type */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--heading-font-color);
-  font-family: var(--heading-font-family);
-  font-weight: var(--heading-font-weight);
-  margin: var(--heading-margin);
-}
