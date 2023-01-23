@@ -5,13 +5,41 @@
 
 // Project breakpoints
 $breakpoints: (
-  'small': (
+  'xs': (
     min-width: 0
   ),
-  'medium': (
+  'xs-only': (
+    max-width: 480px
+  ),
+  'sm': (
+    min-width: 480px
+  ),
+  'sm-only': (
+    min-width: 480px,
+    max-width: 576px
+  ),
+  'md': (
+    min-width: 576px
+  ),
+  'md-only': (
+    min-width: 576px,
+    max-width: 768px
+  ),
+  'lg': (
     min-width: 768px
   ),
-  'large': (
-    min-width: 1024px
+  'lg-only': (
+    min-width: 768px,
+    max-width: 992px
+  ),
+  'xl': (
+    min-width: 992px
+  ),
+  'xl-only': (
+    min-width: 992px,
+    max-width: 1200px
+  ),
+  'xxl': (
+    min-width: 1200px
   )
 ) !default;
